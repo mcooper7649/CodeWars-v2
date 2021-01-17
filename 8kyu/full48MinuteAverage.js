@@ -14,7 +14,7 @@
 
 function pointsPer48(ppg, mpg) {
     if (ppg > 0){
-    var realPpg = ppg * (48 / mpg);
+    var realPpg = ppg * (48 / mpg);   //Most Challenging was understanding to get decimal places you need to * 10 then / by 10 for the tenth power
     return Math.round(realPpg * 10) / 10;
     } else {
     return 0
